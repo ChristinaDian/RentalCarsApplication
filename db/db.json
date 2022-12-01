@@ -1,0 +1,217 @@
+{
+  "users": [
+    {
+      "id": "cb41b2e8-90d2-43c2-a669-1db630d07e0c",
+      "role": "customer",
+      "name": "Mabel Hendricks 3",
+      "email": "mabelhendricks@sarasonic.com",
+      "phone": "+1 (941) 439-2013"
+    },
+    {
+      "id": "419a9822-f18b-408b-97b8-563d862607d6",
+      "role": "customer",
+      "name": "Guerrero Duran",
+      "email": "guerreroduran@sarasonic.com",
+      "phone": "+1 (994) 405-3690"
+    },
+    {
+      "id": "11704d4a-c2d4-486f-a284-f03cc956f0ac",
+      "role": "customer",
+      "name": "Dawn Patel",
+      "email": "dawnpatel@sarasonic.com",
+      "phone": "+1 (826) 477-3432"
+    },
+    {
+      "id": "efff7efc-ffcb-4adf-acc9-ab8921f2b776",
+      "role": "customer",
+      "name": "Leon Cox",
+      "email": "leoncox@sarasonic.com",
+      "phone": "+1 (884) 588-2829"
+    },
+    {
+      "id": "8fd1b3cc-90b8-4504-8336-5e47a9a9b932",
+      "role": "customer",
+      "name": "Flowers Mcguire",
+      "email": "flowersmcguire@sarasonic.com",
+      "phone": "+1 (944) 498-2133"
+    },
+    {
+      "role": "admin",
+      "name": "Christina 2",
+      "email": "stu2001321042@uni-plovdiv.bg",
+      "phone": "088854",
+      "id": "rEqwUW6"
+    },
+    {
+      "role": "admin",
+      "name": "krisi",
+      "email": "krisdian@abv.bg",
+      "phone": "asd",
+      "password": "asd",
+      "id": "nvZYq75"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "First task",
+      "description": "pls work",
+      "dueDate": "Thu Nov 17 2022",
+      "status": "Done",
+      "authorId": "nvZYq75",
+      "authorName": "krisi",
+      "createdDate": "Fri Nov 18 2022 11:40:26 GMT+0200 (Eastern European Standard Time)",
+      "id": 2
+    },
+    {
+      "title": "task 2",
+      "description": "pls work",
+      "dueDate": "Fri Nov 25 2022",
+      "status": "In progress",
+      "authorId": "Mpefsz0",
+      "authorName": "kgc",
+      "createdDate": "Fri Nov 18 2022",
+      "id": 3
+    },
+    {
+      "title": "task 3",
+      "description": "task 3",
+      "dueDate": "Fri Nov 18 2022",
+      "status": "New",
+      "authorId": "nvZYq75",
+      "authorName": "krisi",
+      "createdDate": "Fri Nov 18 2022",
+      "id": 4
+    },
+    {
+      "title": "task4",
+      "description": "task4",
+      "dueDate": "Sat Nov 19 2022",
+      "status": "In review",
+      "authorId": "nvZYq75",
+      "authorName": "krisi",
+      "createdDate": "Fri Nov 18 2022",
+      "id": 5
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 2,
+      "type": "economy",
+      "brand": "GMC",
+      "model": "Envoy",
+      "constructionYear": 2009,
+      "fuelType": "petrol",
+      "seatsNum": 2,
+      "picture": "https://robohash.org/aspernaturetquo.png?size=50x50&set=set1",
+      "pricePerDay": 47.67,
+      "availableCarsCount": 2
+    },
+    {
+      "id": 3,
+      "type": "economy",
+      "brand": "Volvo",
+      "model": "XC70",
+      "constructionYear": 2009,
+      "fuelType": "diesel",
+      "seatsNum": 8,
+      "picture": "https://robohash.org/quaeratmolestiasipsam.png?size=50x50&set=set1",
+      "pricePerDay": 29.82,
+      "availableCarsCount": 3
+    },
+    {
+      "id": 4,
+      "type": "economy",
+      "brand": "Jeep",
+      "model": "Grand Cherokee",
+      "constructionYear": 1999,
+      "fuelType": "hybrid",
+      "seatsNum": 6,
+      "picture": "https://robohash.org/temporibusminusaccusamus.png?size=50x50&set=set1",
+      "pricePerDay": 65.39,
+      "availableCarsCount": 4
+    },
+    {
+      "id": 5,
+      "type": "luxury",
+      "brand": "Isuzu",
+      "model": "Amigo",
+      "constructionYear": 1994,
+      "fuelType": "electric",
+      "seatsNum": 2,
+      "picture": "https://robohash.org/esseassumendasit.png?size=50x50&set=set1",
+      "pricePerDay": 86.52,
+      "availableCarsCount": 5
+    },
+    {
+      "id": 6,
+      "type": "economy",
+      "brand": "BMW",
+      "model": "8 Series",
+      "constructionYear": 1996,
+      "fuelType": "petrol",
+      "seatsNum": 8,
+      "picture": "https://robohash.org/omnisrationevoluptatem.png?size=50x50&set=set1",
+      "pricePerDay": 46.3,
+      "availableCarsCount": 6
+    },
+    {
+      "id": 7,
+      "type": "estate",
+      "brand": "Lotus",
+      "model": "Esprit",
+      "constructionYear": 1987,
+      "fuelType": "hybrid",
+      "seatsNum": 4,
+      "picture": "https://robohash.org/blanditiisestullam.png?size=50x50&set=set1",
+      "pricePerDay": 92.55,
+      "availableCarsCount": 7
+    },
+    {
+      "id": 8,
+      "type": "economy",
+      "brand": "Volvo",
+      "model": "XC90",
+      "constructionYear": 2005,
+      "fuelType": "hybrid",
+      "seatsNum": 3,
+      "picture": "https://robohash.org/utautvel.png?size=50x50&set=set1",
+      "pricePerDay": 58.29,
+      "availableCarsCount": 8
+    },
+    {
+      "id": 9,
+      "type": "economy",
+      "brand": "Suzuki",
+      "model": "SX4",
+      "constructionYear": 2011,
+      "fuelType": "electric",
+      "seatsNum": 2,
+      "picture": "https://robohash.org/corruptiperspiciatisut.png?size=50x50&set=set1",
+      "pricePerDay": 60.34,
+      "availableCarsCount": 9
+    },
+    {
+      "id": 10,
+      "type": "SUV",
+      "brand": "BMW",
+      "model": "Z8",
+      "constructionYear": 2001,
+      "fuelType": "diesel",
+      "seatsNum": "5",
+      "picture": "https://robohash.org/consequaturfacilisest.png?size=50x50&set=set1",
+      "pricePerDay": 54.07,
+      "availableCarsCount": 10
+    }
+  ],
+  "rentals": [
+    {
+      "id": 1,
+      "startDate": "Fri Nov 18 2022",
+      "endDate": "Thu Dec 01 2022",
+      "vehicleId": "10",
+      "vehicleName": "BMW Z8",
+      "userId": "nvZYq75",
+      "userName": "krisi"
+    }
+  ]
+}

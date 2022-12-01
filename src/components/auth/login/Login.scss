@@ -1,0 +1,17 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+}
+.user-form-wrapper{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
