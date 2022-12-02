@@ -1,10 +1,11 @@
-.user-form-wrapper{
+.user-form-wrapper {
     height: calc(100vh - 200px);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-form{
+
+form {
     border: 1px solid grey;
     padding: 20px;
     border-radius: 10px;

@@ -32,9 +32,9 @@ export function getUserByIdFromAPI(id) {
             });
         })
     }
-} 
+}
 
-export function editUser(userData){
+export function editUser(userData) {
     return dispatch => {
         dispatch({
             type: EDIT_USER,

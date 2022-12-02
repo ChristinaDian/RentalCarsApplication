@@ -4,7 +4,7 @@ import { getLoggeduser } from "../http-utils/user-requests";
 export function NonAuthenticatedGuard({ children }) {
     const user = getLoggeduser();
 
-    if(user) {
+    if (user) {
         return <Navigate to="/users-list" />;
     }
     return children;

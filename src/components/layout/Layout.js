@@ -2,11 +2,11 @@ import { Footer } from "../footer/Footer";
 import { Header } from "../header/Header";
 import { Main } from "../main/Main";
 
-export function Layout(){
+export function Layout() {
 
     return (
         <div>
-            <Header />       
+            <Header />
             <Main />
             <Footer />
         </div>

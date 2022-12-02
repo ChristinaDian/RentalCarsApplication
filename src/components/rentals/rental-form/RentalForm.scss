@@ -1,13 +1,23 @@
-.rental-form-wrapper{
+.rental-form-wrapper {
     height: calc(100vh - 300px);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-form{
+
+form {
     margin-top: auto;
     border: 1px solid grey;
     padding: 20px;
     border-radius: 10px;
     width: 500px;
+}
+
+h6 {
+    color: red;
+    text-decoration-line: underline;
+}
+
+span-error {
+    color: red;
 }

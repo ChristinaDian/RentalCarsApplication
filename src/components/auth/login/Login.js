@@ -31,10 +31,10 @@ export function Login() {
 
     return (
         <div className="user-form-wrapper">
-            
+
             <Form onSubmit={onFormSubmit}>
                 <h3>Login</h3>
-                {error && <span className="text-danger">{error}</span>}               
+                {error && <span className="text-danger">{error}</span>}
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" name="email" value={user.email} onChange={onInputChange} required />

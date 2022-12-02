@@ -49,48 +49,12 @@
       "phone": "asd",
       "password": "asd",
       "id": "nvZYq75"
-    }
-  ],
-  "tasks": [
-    {
-      "title": "First task",
-      "description": "pls work",
-      "dueDate": "Thu Nov 17 2022",
-      "status": "Done",
-      "authorId": "nvZYq75",
-      "authorName": "krisi",
-      "createdDate": "Fri Nov 18 2022 11:40:26 GMT+0200 (Eastern European Standard Time)",
-      "id": 2
     },
     {
-      "title": "task 2",
-      "description": "pls work",
-      "dueDate": "Fri Nov 25 2022",
-      "status": "In progress",
-      "authorId": "Mpefsz0",
-      "authorName": "kgc",
-      "createdDate": "Fri Nov 18 2022",
-      "id": 3
-    },
-    {
-      "title": "task 3",
-      "description": "task 3",
-      "dueDate": "Fri Nov 18 2022",
-      "status": "New",
-      "authorId": "nvZYq75",
-      "authorName": "krisi",
-      "createdDate": "Fri Nov 18 2022",
-      "id": 4
-    },
-    {
-      "title": "task4",
-      "description": "task4",
-      "dueDate": "Sat Nov 19 2022",
-      "status": "In review",
-      "authorId": "nvZYq75",
-      "authorName": "krisi",
-      "createdDate": "Fri Nov 18 2022",
-      "id": 5
+      "name": "Bot",
+      "email": "bot@bot.com",
+      "phone": "088854444",
+      "id": "wDm_8se"
     }
   ],
   "vehicles": [
@@ -101,10 +65,10 @@
       "model": "Envoy",
       "constructionYear": 2009,
       "fuelType": "petrol",
-      "seatsNum": 2,
-      "picture": "https://robohash.org/aspernaturetquo.png?size=50x50&set=set1",
+      "seatsNum": "8",
+      "picture": "https://www.gannett-cdn.com/presto/2018/12/27/PDTF/8ba6076e-41d6-431e-a2ec-dc2fbfe6dae3-2002_GMC_Envoy.jpg?crop=2752,1548,x1,y228&width=2752&height=1548&format=pjpg&auto=webp",
       "pricePerDay": 47.67,
-      "availableCarsCount": 2
+      "availableCarsCount": 0
     },
     {
       "id": 3,
@@ -114,9 +78,9 @@
       "constructionYear": 2009,
       "fuelType": "diesel",
       "seatsNum": 8,
-      "picture": "https://robohash.org/quaeratmolestiasipsam.png?size=50x50&set=set1",
+      "picture": "https://www.cdn.tv2.no/images/10992627.jpg?imageId=10992627&x=0&y=0&cropw=100&croph=100&width=1028&height=579",
       "pricePerDay": 29.82,
-      "availableCarsCount": 3
+      "availableCarsCount": 0
     },
     {
       "id": 4,
@@ -125,10 +89,10 @@
       "model": "Grand Cherokee",
       "constructionYear": 1999,
       "fuelType": "hybrid",
-      "seatsNum": 6,
-      "picture": "https://robohash.org/temporibusminusaccusamus.png?size=50x50&set=set1",
+      "seatsNum": "8",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/2011_Jeep_Grand_Cherokee_Laredo_--_NHTSA_2.jpg/1200px-2011_Jeep_Grand_Cherokee_Laredo_--_NHTSA_2.jpg",
       "pricePerDay": 65.39,
-      "availableCarsCount": 4
+      "availableCarsCount": 3
     },
     {
       "id": 5,
@@ -137,10 +101,10 @@
       "model": "Amigo",
       "constructionYear": 1994,
       "fuelType": "electric",
-      "seatsNum": 2,
-      "picture": "https://robohash.org/esseassumendasit.png?size=50x50&set=set1",
+      "seatsNum": "8",
+      "picture": "https://www.motortrend.com/uploads/sites/11/2020/08/1999-Isuzu-Amigo-profile1.jpg?fit=around%7C875:492",
       "pricePerDay": 86.52,
-      "availableCarsCount": 5
+      "availableCarsCount": 4
     },
     {
       "id": 6,
@@ -149,8 +113,8 @@
       "model": "8 Series",
       "constructionYear": 1996,
       "fuelType": "petrol",
-      "seatsNum": 8,
-      "picture": "https://robohash.org/omnisrationevoluptatem.png?size=50x50&set=set1",
+      "seatsNum": "5",
+      "picture": "https://i.dir-i.net/CMS/2018/06/17/t/5f_tom20e.jpg",
       "pricePerDay": 46.3,
       "availableCarsCount": 6
     },
@@ -162,7 +126,7 @@
       "constructionYear": 1987,
       "fuelType": "hybrid",
       "seatsNum": 4,
-      "picture": "https://robohash.org/blanditiisestullam.png?size=50x50&set=set1",
+      "picture": "https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_ssl.caranddriving.com/f2/images/used/big/lotusesprit_750_500_70.jpg",
       "pricePerDay": 92.55,
       "availableCarsCount": 7
     },
@@ -173,8 +137,8 @@
       "model": "XC90",
       "constructionYear": 2005,
       "fuelType": "hybrid",
-      "seatsNum": 3,
-      "picture": "https://robohash.org/utautvel.png?size=50x50&set=set1",
+      "seatsNum": "5",
+      "picture": "https://automedia.investor.bg/media/files/resized/gallery/760x/68b/c63caa10a7bc255a1afaf8fca9b3168b-03-11.jpg",
       "pricePerDay": 58.29,
       "availableCarsCount": 8
     },
@@ -185,8 +149,8 @@
       "model": "SX4",
       "constructionYear": 2011,
       "fuelType": "electric",
-      "seatsNum": 2,
-      "picture": "https://robohash.org/corruptiperspiciatisut.png?size=50x50&set=set1",
+      "seatsNum": "5",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a7/2008_Suzuki_SX4_Touring.jpg",
       "pricePerDay": 60.34,
       "availableCarsCount": 9
     },
@@ -197,10 +161,24 @@
       "model": "Z8",
       "constructionYear": 2001,
       "fuelType": "diesel",
-      "seatsNum": "5",
-      "picture": "https://robohash.org/consequaturfacilisest.png?size=50x50&set=set1",
+      "seatsNum": "2",
+      "picture": "https://dizzyriders.bg/uploads/avtomobili/2021_09/bmw-z8-tuning-oletha-by-smit-vehicle-engineering-3.jpg",
       "pricePerDay": 54.07,
       "availableCarsCount": 10
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model 3",
+      "constructionYear": "2022",
+      "type": "Luxory",
+      "fuelType": "",
+      "seatsNum": "5",
+      "picture": "https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD",
+      "privePerDay": "",
+      "availableCarsCount": "1",
+      "pricePerDay": "120",
+      "fuel": "Electric",
+      "id": 11
     }
   ],
   "rentals": [
@@ -211,7 +189,58 @@
       "vehicleId": "10",
       "vehicleName": "BMW Z8",
       "userId": "nvZYq75",
-      "userName": "krisi"
+      "userName": "krisi",
+      "totalPrice": 255.25
+    },
+    {
+      "startDate": "Fri Dec 02 2022",
+      "endDate": "Fri Dec 09 2022",
+      "totalPrice": "317.01",
+      "userId": "rEqwUW6",
+      "userName": "Christina 2",
+      "vehicleId": 2,
+      "vehicleName": "GMC Envoy",
+      "id": 4
+    },
+    {
+      "startDate": "Fri Dec 02 2022",
+      "endDate": "Tue Dec 06 2022",
+      "vehicleId": 3,
+      "vehicleName": "Volvo XC70",
+      "totalPrice": "226.63",
+      "userId": "nvZYq75",
+      "userName": "krisi",
+      "id": 5
+    },
+    {
+      "startDate": "Fri Dec 02 2022",
+      "endDate": "Sat Dec 03 2022",
+      "vehicleId": 4,
+      "vehicleName": "Jeep Grand Cherokee",
+      "totalPrice": "317.14",
+      "userId": "nvZYq75",
+      "userName": "krisi",
+      "id": 6
+    },
+    {
+      "startDate": "Fri Dec 02 2022",
+      "endDate": "Sat Dec 03 2022",
+      "vehicleId": 5,
+      "vehicleName": "Isuzu Amigo",
+      "totalPrice": "493.16",
+      "userId": "nvZYq75",
+      "userName": "krisi",
+      "id": 7
+    },
+    {
+      "startDate": "Fri Dec 02 2022",
+      "endDate": "Thu Dec 01 2022",
+      "vehicleId": 2,
+      "vehicleName": "GMC Envoy",
+      "totalPrice": "143.01",
+      "userId": "nvZYq75",
+      "userName": "krisi",
+      "id": 8
     }
   ]
 }

@@ -1,24 +1,22 @@
 import { useEffect, useState } from "react"
-import { useParams } from "react-router-dom";
-import { deleteVehicle, getAllVehicles, saveVehicle} from "../../../utils/http-utils/vehicle-requests";
+import { deleteVehicle, getAllVehicles } from "../../../utils/http-utils/vehicle-requests";
 import { VehicleCard } from "../vehicle-card/VehicleCard";
 import './VehiclesList.scss'
 
 export function VehiclesList() {
     const [vehicles, setVehicles] = useState([]);
-    const params = useParams();
 
     useEffect(() => {
-            getAllVehicles().then(response => {
-                setVehicles(response.data);
-            })
-    })
+        getAllVehicles().then(response => {
+            setVehicles(response.data);
+        })
+    }, [])
 
-    const onChangeStatusHandler = (status, id) => {
-        const vehicle = vehicles.find(vehicle => vehicle.id === parseInt(id));
-        saveVehicle(vehicle).then(() => {
-            setVehicles([...vehicles]);
-        });
+    const getAvailableVehicles = (num) => {
+        if (num === 1)
+            return vehicles.filter(vehicle => vehicle.availableCarsCount > 0).map(vehicle => <VehicleCard key={vehicle.id} vehicle={vehicle} deleteVehicle={onDeleteHandler} />);
+        else
+            return vehicles.filter(vehicle => vehicle.availableCarsCount < 1).map(vehicle => <VehicleCard key={vehicle.id} vehicle={vehicle} deleteVehicle={onDeleteHandler} />);
     }
 
     const onDeleteHandler = (id) => {
@@ -30,9 +28,15 @@ export function VehiclesList() {
     }
 
     return (
-        <div className="vehicles-list-wrapper">
-            { vehicles.map(vehicle => <VehicleCard key={vehicle.id} vehicle={vehicle} deleteVehicle={onDeleteHandler}/>)}
-           
+        <div>
+            <h1>Available for rent</h1>
+            <div className="vehicles-list-wrapper">
+                {getAvailableVehicles(1)}
+            </div>
+            <h1>Currently unavailable</h1>
+            <div className="vehicles-list-wrapper">
+                {getAvailableVehicles(0)}
+            </div>
         </div>
     );
 }

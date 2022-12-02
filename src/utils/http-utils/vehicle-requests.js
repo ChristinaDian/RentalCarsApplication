@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { getLoggeduser } from './user-requests';
 
 export const VehicleStatus = {
     AVAILABLE: 'Avaivable',
@@ -19,30 +18,34 @@ export const FuelType = {
     ELECTRIC: 'Electric'
 }
 const apiUrl = 'http://localhost:3005/vehicles';
+const vehicleForRental = 'vehicleForRental';
 
-//.then => resolved correctly
-//.catch => has error
-//.finally => executed always
-export function getAllVehicles(){
+export function getAllVehicles() {
     return axios.get(apiUrl);
 }
 
-export function getAllVehiclesForCustomer(customerId){
+export function getAllVehiclesForCustomer(customerId) {
     return axios.get(`${apiUrl}?customerId=${customerId}`);
 }
 
-export function getVehicleById(vehicleId){
+export function getVehicleById(vehicleId) {
     return axios.get(`${apiUrl}/${vehicleId}`);
 }
-
-export function deleteVehicle(vehicleId){
+export function getVehicleForRental() {
+    return JSON.parse(localStorage.getItem(vehicleForRental));
+}
+export function deleteVehicle(vehicleId) {
     return axios.delete(`${apiUrl}/${vehicleId}`);
 }
 
-export function saveVehicle(vehicle){
-       //create
-    if(!vehicle.id) {
+export function saveVehicle(vehicle) {
+    //create
+    if (!vehicle.id) {
         return axios.post(apiUrl, vehicle);
     }
     return axios.put(`${apiUrl}/${vehicle.id}`, vehicle);
+}
+export async function rental(vehicle) {
+    localStorage.setItem(vehicleForRental, JSON.stringify(vehicle));
+    return vehicle;
 }
